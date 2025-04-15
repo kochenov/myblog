@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["Kochenov Dmitry <kochenof@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["all"], version = "^0.115.12"}
+fastapi-users = "^14.0.1"
+fastapi-users-db-sqlalchemy = "^7.0.0"
+asyncpg = "^0.30.0"
+alembic = "^1.15.2"
+fastapi-pagination = "^0.12.34"
+
+
+[tool.poetry.group.dev.dependencies]
+fastapi-cli = "^0.0.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,79 @@
+# =================
+# Виртуальные окружения и IDE
+# =================
+**/.venv/
+**/venv/
+**/env/
+**/.env/
+**/.idea/
+**/.vscode/
+**/*.swp
+**/*.swo
+
+# =================
+# Python кэш и скомпилированные файлы
+# =================
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+**/*.so
+**/.Python
+**/build/
+**/develop-eggs/
+**/dist/
+**/downloads/
+**/eggs/
+**/.eggs/
+**/lib/
+**/lib64/
+**/parts/
+**/sdist/
+**/var/
+**/wheels/
+**/*.egg-info/
+**/.installed.cfg
+**/*.egg
+
+# =================
+# Poetry и зависимости
+# =================
+**/poetry.lock
+
+# =================
+# Логи и базы данных
+# =================
+**/*.log
+**/*.sqlite
+**/*.db
+**/*.sql
+**/*.dump
+
+# =================
+# Jupyter и тестовые данные
+# =================
+**/.ipynb_checkpoints/
+**/*.ipynb
+**/notebooks/
+
+# =================
+# Конфигурации и секреты
+# =================
+**/.env
+**/.env.local
+**/.env.dev
+**/.env.prod
+**/secrets.ini
+**/config.ini
+**/credentials.json
+
+# =================
+# Статика и медиа
+# =================
+**/media/
+**/static/
+
+# =================
+# Docker
+# =================
+**/docker-compose.override.yml
+**/*.dockerignore
