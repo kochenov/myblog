@@ -1,4 +1,4 @@
-# /myblog/apps/backend/api/app/config.py
+# /apps/backend/api/app/config.py
 
 """
 Конфигурация проекта для блога на FastAPI.
