@@ -1,6 +1,16 @@
-theme: jekyll-theme-minimal # или другая тема
+# docs/_config.yml
+title: Документация проекта
+description: FullStack Project Blog FastApi+Quasar(Vue JS)
+theme: jekyll-theme-minimal  # Встроенная тема GitHub
+
+# Включите плагин для относительных ссылок между .md-файлами
 plugins:
   - jekyll-relative-links
+
 relative_links:
   enabled: true
   collections: true
+
+# Укажите, где искать Markdown-файлы
+source: .
+destination: _site
