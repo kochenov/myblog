@@ -11,12 +11,13 @@ fastapi = {extras = ["all"], version = "^0.115.12"}
 fastapi-users = "^14.0.1"
 fastapi-users-db-sqlalchemy = "^7.0.0"
 asyncpg = "^0.30.0"
-alembic = "^1.15.2"
 fastapi-pagination = "^0.12.34"
+alembic = "^1.15.2"
 
 
 [tool.poetry.group.dev.dependencies]
 fastapi-cli = "^0.0.7"
+alembic = "^1.15.2"
 
 [build-system]
 requires = ["poetry-core"]

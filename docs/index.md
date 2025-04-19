@@ -20,6 +20,7 @@
 2. Создание backend на FastAPI с авторизацией (FastAPI Users + PostgreSQL).
     1. [Файл конфигурации и .env: Настройка проекта для блога на FastAPI](2.md) 
     2. [Docker Compose для запуска PostgreSQL в локальной разработке](3.md)
+    3. [Настройка подключения к базе данных и интеграция FastAPI с Alembic](4.md)
 3. Написание frontend с помощью Quasar (Vue 3, SSR, Pinia).
 4. Связку backend и frontend.
 5. Сборку Docker-контейнеров и деплой на VPS с помощью Nginx и SSL.
